@@ -12,4 +12,6 @@ public class BubbleSort {
         bubbleSort(array);
     }
 
+    private static void bubbleSort(int[] array) {
+    }
 }
