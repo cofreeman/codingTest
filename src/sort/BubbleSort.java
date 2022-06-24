@@ -12,8 +12,4 @@ public class BubbleSort {
     public static void main(String[] args) {
         bubbleSort(array);
     }
-
-    public static void bubbleSort(int array) {
-
-    }
 }
