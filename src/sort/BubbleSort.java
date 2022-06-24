@@ -6,7 +6,7 @@ public class BubbleSort {
      * 버블 정렬 메서드를 구현하세요.
      *
      * 구현이 끝나면
-     *
+     * 자신이 리드미컬하게 구현했다면 -->  bubbleSort5 와 같은 결과가 나와야합니다.
      */
     static int[] array = new int[]{1,2,5,6,7,3,4,2};
 
