@@ -23,4 +23,11 @@ public class BubbleSort {
             }
         }
     }
+
+    private static void swap(int a, int b) {
+        int tmp = 0;
+        tmp = array[a];
+        array[a] = array[b];
+        array[b] = tmp;
+    }
 }
