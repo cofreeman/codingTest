@@ -1,6 +1,8 @@
 //question 문제가 잘못된 점이 있을까요?
 package sort;
 
+import java.util.Arrays;
+
 public class BubbleSort {
 
     static int[] array = new int[]{1, 2, 5, 6, 7, 3, 4, 2};
@@ -8,10 +10,8 @@ public class BubbleSort {
     public static void main(String[] args) {
 
         bubbleSort(array);
-        // todo: 스트림을 써서 출력문을 다시 구현하세요
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
-        }
+        Arrays.stream(array).forEach(System.out::println);
+        //todo: 완성! Go To 5-8
     }
 
     private static void bubbleSort(int[] array) {
