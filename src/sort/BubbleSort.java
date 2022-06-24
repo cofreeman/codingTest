@@ -8,10 +8,8 @@ public class BubbleSort {
     static int[] array = new int[]{1, 2, 5, 6, 7, 3, 4, 2};
 
     public static void main(String[] args) {
-
         bubbleSort(array);
         Arrays.stream(array).forEach(System.out::println);
-        //todo: 완성! Go To 5-8
     }
 
     private static void bubbleSort(int[] array) {
