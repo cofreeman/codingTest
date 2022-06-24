@@ -2,9 +2,8 @@
 package sort;
 
 public class BubbleSort {
-    /**
-     * 이제 option + enter 로 bubbleSort 메서드를 선언합니다.
-     */
+    //todo: 이제 option + enter 로 bubbleSort 메서드를 선언합니다.
+
     static int[] array = new int[]{1,2,5,6,7,3,4,2};
 
     public static void main(String[] args) {
