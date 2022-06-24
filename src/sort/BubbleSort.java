@@ -16,9 +16,6 @@ public class BubbleSort {
             for (int j = 0; j < size - i - 1; j++) {
                 if (array[j] > array[j + 1]) {
                     swap(j, j + 1);
-                    /**
-                     * swap 을 option + enter 한뒤에 swap 함수를 구현합니다.
-                     */
                 }
             }
         }
@@ -30,4 +27,5 @@ public class BubbleSort {
         array[a] = array[b];
         array[b] = tmp;
     }
+    //todo: 구현했으므로 main 문에서 성공적으로 출력해봅시다.
 }
