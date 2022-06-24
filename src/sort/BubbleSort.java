@@ -8,7 +8,11 @@ public class BubbleSort {
     public static void main(String[] args) {
 
         bubbleSort(array);
-        //todo: array 의 값을 출력을 구현하고 결과가 bubbleSort 가 잘 되었는지 확인하고 5-5로 가세요
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+        //todo: 출력문을 이렇게 구현했다면 당신의 개발자인생은 매우 고달파질겁니다. Go To 5-6
     }
 
     private static void bubbleSort(int[] array) {
