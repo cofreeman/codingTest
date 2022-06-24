@@ -3,7 +3,10 @@ package sort;
 
 public class BubbleSort {
     /**
-     * 이제 option + enter 로 bubbleSort 메서드를 선언합니다.
+     * 버블 정렬 메서드를 구현하세요.
+     *
+     * 구현이 끝나면
+     *
      */
     static int[] array = new int[]{1,2,5,6,7,3,4,2};
 
@@ -13,5 +16,6 @@ public class BubbleSort {
     }
 
     private static void bubbleSort(int[] array) {
+
     }
 }
