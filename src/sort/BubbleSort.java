@@ -17,11 +17,7 @@ public class BubbleSort {
                 if (array[j] > array[j + 1]) {
                     swap(j, j + 1);
                     /**
-                     * 리드미컬한 구현을 했으면 여기서 bubbleSort 메서드 구현은 끝입니다.
-                     * 리드미컬한 구현이란
-                     * array[j] 값이 array[j + 1] 보다 크면 바꿔야지~ 라는 생각을하고 swap(j, j+1) 을 쓰고 끝내는 것입니다.
-                     * swap 의 구현은 나중일 입니다.
-                     * Go To 5-1
+                     * swap 을 option + enter 한뒤에 swap 함수를 구현합니다.
                      */
                 }
             }
