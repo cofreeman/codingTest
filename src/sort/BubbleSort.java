@@ -8,7 +8,7 @@ public class BubbleSort {
     public static void main(String[] args) {
 
         bubbleSort(array);
-        //todo: array 의 값을 출력해보세요.
+        //todo: array 의 값을 출력을 구현하고 결과가 bubbleSort 가 잘 되었는지 확인하고 5-5로 가세요
     }
 
     private static void bubbleSort(int[] array) {
