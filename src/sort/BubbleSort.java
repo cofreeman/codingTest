@@ -2,9 +2,13 @@
 package sort;
 
 public class BubbleSort {
+    /**
+     main method 가 array 라는 변수를 읽으려면 array 변수를 static 변수로 바꿔 클래스내의 모든 범위에서 사용할 수 있게하거나
+     main method 안에 new BubbleSort() 로 객체를 생성해 객체를 통해 array 변수를 참조하는 방법이 있습니다.
+     또, main method 안에 array 변수를 넣어 참조하는 방법이 있습니다.
+     */
     int[] array = new int[]{1,2,5,6,7,3,4,2};
 
-    //todo array를 버블정렬합니다. 그런데 array가 빨간줄이 그어지네요?
     public static void main(String[] args) {
         bubbleSort(array);
     }
