@@ -4,12 +4,14 @@ package sort;
 public class BubbleSort {
     int[] array = new int[]{1,2,5,6,7,3,4,2};
 
-    //todo array를 버블정렬합니다. 그런데 array가 빨간줄이 그어지네요?
+    /**
+     * 변수 array 를 bubbleSorting 합니다.
+     * 빨간색으로 글씨가 뜹니다.
+     * bubbleSort 메서드를 구현하지 않았기 때문입니다.
+     * 리드미컬하게 구현하려면 어떻게 해야할까요?
+     */
     public static void main(String[] args) {
         bubbleSort(array);
     }
 
-    public static void bubbleSort(int array) {
-
-    }
 }
