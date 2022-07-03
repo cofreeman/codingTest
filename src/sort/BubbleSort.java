@@ -2,7 +2,9 @@
 package sort;
 
 public class BubbleSort {
-    int[] array = new int[]{1,2,5,6,7,3,4,2};
-    //todo: 버블 정렬을 이용해 주어진 배열을 오름차순으로 출력하세요(웬만하면 리드미컬하게 구현해주세요)
 
+    public static void main(String[] args) {
+        //todo: 다음 배열 요소의 중복을 제거하고, 다섯 글자 이상의 단어만, 내림차순으로 정렬하여 출력하라.
+        String[] array = { "carrot", "apple", "banana", "egg", "meat", "apple" };
+    }
 }
